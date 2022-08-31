@@ -5,16 +5,12 @@
 # Salesforce cache
 .sf/
 .sfdx/
-.localdevserver/
-deploy-options.json
-.husky
-.vscode
+# This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
+# If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
+# For useful gitignore templates see: https://github.com/github/gitignore
 
-# LWC VSCode autocomplete
-**/lwc/jsconfig.json
-
-# LWC Jest coverage reports
-coverage/
+# Salesforce cache
+.sfdx/
 
 # Logs
 logs
@@ -34,6 +30,21 @@ node_modules/
 
 # Windows system files
 Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Copado
+/.sfdx
+copado_root
+/.vscode
+**config
+/.prettierignore
+/.prettierrc
+force-app/main/default/lwc/.eslintrc.json
+force-app/main/default/lwc/jsconfig.json
+sfdx-project.json
+README.md
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
