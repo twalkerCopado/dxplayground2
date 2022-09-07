@@ -4,7 +4,7 @@ public class QualityGateCheck {
             system.debug('Here Graham Posey');
             Account acc = new Account();
             acc = [SELECT id from Account limit 1]; 
-            
+            system.debug('Graham');
         }
     }
 }
